@@ -1,0 +1,13 @@
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 4rem ;
+  }
+  .prev,.next{
+    border:none;
+    outline: none;
+    background-color:rgb(93, 178, 218);
+    padding:1px 15px;
+    border-radius: 3px;
+    font-weight: 600;
+  }

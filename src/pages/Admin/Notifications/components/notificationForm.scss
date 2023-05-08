@@ -1,0 +1,61 @@
+.notifications-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+    .user-notification-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:20px;
+        width:50%;
+      .user-notification-form {
+        display: flex;
+        gap: 20px;
+        .left-msg {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .middle-msg {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .right-msg {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+      }
+    }
+    .delivery-notification-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:20px;
+        width:50%;
+      .delivery-notification-form {
+        display: flex;
+        gap: 20px;
+        .left-msg {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .middle-msg {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .right-msg {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+      }
+    }
+}

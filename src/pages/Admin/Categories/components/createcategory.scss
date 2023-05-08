@@ -1,0 +1,107 @@
+.categories{
+  width: 100%;
+}
+.category-table {
+    // border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .category-tableHead,
+  .category-tableData {
+    
+    text-align: center;
+    word-break: break-all; /* break the word when it reaches the width of the cell */
+    max-width: 0; /* make sure the cell doesn't expand more than the table width */
+  }
+  
+  .category-tableHead {
+    background-color: #e6e6e6;
+    color: hsl(0, 0%, 0%);
+    height: 8vh;
+  }
+  
+  // .category-tableRow:hover {
+  //   background-color: rgba($color: rgba(185, 192, 185, 0.562), $alpha: 0.4);
+  //   -webkit-box-shadow: 0px 6px 2px 0px rgba(184, 178, 184, 1);
+  //   -moz-box-shadow: 0px 6px 2px 0px rgba(184, 178, 184, 1);
+  //   box-shadow: 0px 6px 2px 0px rgba(184, 178, 184, 1);
+  // }
+  
+
+  .active-button{
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+  }
+  .inactive-button{
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+  }
+
+  .Add-button{
+width: 90px;
+background-color: rgb(0, 128, 0);
+float: right;
+height: 30px;
+border-radius: 5px;
+color: white;
+border: none;
+outline: none;
+margin: 10px 20px 10px 0;
+cursor: pointer;
+  }
+
+  .Add-button:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+  .searchbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+  }
+  .input{
+    padding: 5px 10px;
+    
+  }
+  .search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+  font-size: 13px;
+  color: red ;
+    }
+  }

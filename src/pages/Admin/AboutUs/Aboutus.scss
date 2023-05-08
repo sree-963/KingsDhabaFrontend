@@ -1,0 +1,50 @@
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+}
+.vl {
+    border-left: 6px solid rgb(179, 182, 179);
+    height: 350px;
+  }
+  
+.form form{
+    width: 25vw;
+    height: 50vh;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    padding: 6px 30px;
+    background-color: rgb(82, 173, 233);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.about-us{
+    width: 480px;
+    background-color: rgb(243, 240, 240);
+    padding: 1rem 1.5rem;
+    text-align: justify;
+    filter: drop-shadow(1px 1px 8px rgb(109, 109, 109));
+
+}
+.label label{
+font-size: 30px;
+}
+.form textarea{
+    width: 250px;
+    padding:10px 10px;
+    height: 200px;
+}
+
+
+
+

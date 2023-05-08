@@ -1,0 +1,42 @@
+.user-alignments{
+  height: 100vh;
+}
+.orderbuttons {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 5rem .8rem  5rem;
+}
+.orderbuttons button {
+  border: none;
+  outline: none;
+  padding: 0.6rem 2rem;
+  // background-color: rgb(60, 60, 204);
+  background-color: rgb(4, 108, 177);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.Complete {
+  background-color: rgb(0, 112, 0);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 0px;
+  font-weight: 600;
+  width: 100px;
+}
+.pending {
+  background-color: rgba(168, 7, 7, 0.918);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 0px;
+  width: 100px;
+
+}
+table{
+  width: 100%;
+}
+td{
+  width: 220px;
+}

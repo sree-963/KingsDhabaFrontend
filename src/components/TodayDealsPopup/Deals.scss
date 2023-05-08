@@ -1,0 +1,99 @@
+.product-model {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .edit-form {
+    height: 70%;
+    width: 40%;
+    background-color: rgba(0, 0, 0,.7);
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vw;
+    h1{
+      color:rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      text-align: center;
+      padding: 5px;
+      // border-radius:5px;
+    }
+    .edit-style {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3vw;
+      .left-edit {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 3.5vh;
+      }
+      .right-edit {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2vh;
+        input {
+          border: "0.5px solid black";
+          outline: none;
+          padding: 4px;
+          height: 4.5vh;
+     
+          font-weight: bold;
+        }
+      }
+    }
+    .edit-buttons {
+      .update-button {
+        background-color: blue;
+        height: 40px;
+        width: 100px;
+        color: white;
+        margin-right: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 17px;
+      }
+      .close-button {
+        background-color: red;
+        height: 40px;
+        width: 100px;
+        color: white;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 17px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.error-msg {
+  position: absolute;
+  top: 70%;
+  left: 35.5%;
+  color: red;
+  font-size: 12px;
+}
+.right-edit input {
+  padding: 1.5px 0px;
+}

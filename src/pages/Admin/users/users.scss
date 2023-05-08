@@ -1,0 +1,52 @@
+.user-alignments {
+  display: flex;
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.searchbar {
+  display: flex;
+}
+.searchname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: #bb1015;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 3.7rem;
+  }
+}
+.delete {
+  background-color: #ff0000;
+  width: 60px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.delete:hover {
+  cursor: pointer;
+}
+.active-button {
+  color: green;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.inactive-button {
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}

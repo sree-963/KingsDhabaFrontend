@@ -1,0 +1,70 @@
+.product-table {
+  // border-collapse: collapse;
+  width: 100%;
+}
+.Pactive-button {
+  color: green;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.Pinactive-button {
+  font-size: 14px;
+  font-weight: 600;
+  color: red;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+.input {
+  padding: 5px 10px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 13px;
+    color: red;
+  }
+}
+.Active {
+  background-color: rgb(52, 172, 228);
+  padding: 2px 3px;
+}
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 4rem;
+}
+.prev,
+.next {
+  border: none;
+  outline: none;
+  background-color: rgb(93, 178, 218);
+  padding: 1px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+//  .remove{
+//   background-color: rgb(255, 153, 0);
+//   border: none;
+//   padding: 5px 10px;
+//   color: white;
+//   margin: 5px;
+//   border-radius: 5px;
+// }
+.add{
+  background-color: yellowgreen;
+}

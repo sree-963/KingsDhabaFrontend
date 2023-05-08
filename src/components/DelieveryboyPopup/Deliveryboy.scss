@@ -1,0 +1,18 @@
+.labels{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-top: -3.8rem;
+}
+.Delivery{
+    width: 90%;
+    height: 80%;
+}
+.DeliveryBoyLabels label{
+    font-size: 19px;
+    font-weight: 600;
+}
+.ipt{
+    height: 4vh;
+    padding: 10px 10px;
+}

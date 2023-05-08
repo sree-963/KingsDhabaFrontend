@@ -1,0 +1,98 @@
+.category-model {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .cat-edit-form {
+    height: 42%;
+    width: 35%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    h1{
+      color:rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      text-align: center;
+      padding: 5px;
+    }
+    .edit-style {
+      display: flex;
+      gap: 3vw;
+      justify-content: center;
+      align-items: center;
+      .left-edit {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 4.5vh;
+        font-weight: 600;
+      }
+      .right-edit {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 4vh;
+        input {
+          border: "0.5px solid black";
+          outline: none;
+          padding: 4px;
+          width: 200px;
+          font-weight: bold;
+          font-weight: 20px;
+        }
+      }
+    }
+
+    .edit-buttons {
+      .update-button {
+        background-color: blue;
+        height: 40px;
+        width: 100px;
+        color: white;
+        margin-right: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 550;
+      }
+      .close-button {
+        background-color: red;
+        height: 40px;
+        width: 100px;
+        color: white;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 550;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.cat-error-msg {
+  position: absolute;
+  top: 57%;
+  left: 37.5%;
+  color: red;
+  font-size: 12px;
+}

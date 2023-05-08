@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  padding: 0rem 2rem;
+  background-color: rgba(78, 71, 71, 0.938);
+  // box-shadow: 1  px 2px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-left: 1rem;
+  margin-top: 10px;
+  color: white;
+  border: 3px solid rgb(179, 174, 174);
+
+  .right-nav {
+    .logout {
+      margin-top: 1px;
+    }
+    button {
+      border: none;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      color: white;
+      span {
+        font-weight: 650;
+        font-size: 15px;
+      }
+    }
+  }
+}
+.fabar:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}

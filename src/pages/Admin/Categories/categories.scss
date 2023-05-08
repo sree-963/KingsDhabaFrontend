@@ -1,0 +1,107 @@
+.categories-alignments {
+  display: flex;
+  width: 100vw;
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.edit-btn {
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 30px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.del-btn {
+  border: none;
+  outline: none;
+  width: 70px;
+  height: 30px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(221, 34, 34);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.del-btn:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+//pop css
+.order {
+  background: url('https://cdn.dribbble.com/users/4358240/screenshots/14825308/media/84f51703b2bfc69f7e8bb066897e26e0.gif'),
+    50%;
+  background-size: 100%;
+  width: 18rem;
+  height: 9rem;
+}
+h4 {
+  color: white;
+  font-size: 25px;
+}
+.popup {
+  display: flex;
+  position: fixed;
+  top: 43%;
+  left: 35%;
+  padding: 0px 50px;
+  width: 520px;
+  height: 200px;
+  z-index: 999999;
+  background-color: rgba(0, 50, 65);
+  border-radius: 10px;
+
+}
+.Details {
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+}
+
+.closebtn {
+  transform: translate(400px, 20px);
+  cursor: pointer;
+}
